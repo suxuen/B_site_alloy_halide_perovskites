@@ -14,7 +14,7 @@ Inorganic halide perovskites (IHPs) are promising optoelectronic materials, but 
 
 ## Repository Status
 
-**This repository is under active construction.** The thermodynamic stability analysis is populated and reproducible; the electronic structure analysis is still being added.
+**This repository is under active construction.** The thermodynamic stability and electronic structure analysis is populated and reproducible; more commenting intended to improve clarity.
 
 | Section | Notebook | Status |
 |---|---|---|
@@ -52,3 +52,6 @@ Each notebook reads data from `data/` (relative paths) and writes figures to `ma
 ## Citation
 
 Citation details will be added once the manuscript is formally published.
+
+
+**Note on repository assembly:** The analysis code and scientific content in this repository were written by the authors (with dos_helper.py adapted from N. Singstock, credited above). Claude (Anthropic) was used to help organize and consolidate scattered PhD-era scripts into this repository's structure.
