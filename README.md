@@ -53,5 +53,6 @@ Each notebook reads data from `data/` (relative paths) and writes figures to `ma
 
 Citation details will be added once the manuscript is formally published.
 
+## Disclaimer
 
 **Note on repository assembly:** The analysis code and scientific content in this repository were written by the authors (with dos_helper.py adapted from N. Singstock, credited above). Claude (Anthropic) was used to help organize and consolidate scattered PhD-era scripts into this repository's structure.
