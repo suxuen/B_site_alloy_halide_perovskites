@@ -4,7 +4,9 @@ This repository contains the analysis code, data, and figure-generation notebook
 
 > **Thermodynamic and Electronic Effects of B-site Alloying in Halide Perovskites**
 > Suxuen Yew, John T. Barber, Christopher Sutton, and Charles B. Musgrave
-> *Chemistry of Materials* (accepted; in press — DOI to be added upon publication)
+> *Chemistry of Materials* (accepted — DOI to be added upon publication)
+
+The high-throughput DFT/MLIP calculations underlying this dataset were run using the automated pipeline in [vasp_workflow](https://github.com/suxuen/vasp_workflow); this repository covers the downstream analysis and figure generation.
 
 ## Abstract
 
@@ -12,7 +14,7 @@ Inorganic halide perovskites (IHPs) are promising optoelectronic materials, but 
 
 ## Repository Status
 
-🚧 **This repository is under active construction.** The thermodynamic stability analysis is populated and reproducible; the electronic structure analysis is still being added.
+**This repository is under active construction.** The thermodynamic stability analysis is populated and reproducible; the electronic structure analysis is still being added.
 
 | Section | Notebook | Status |
 |---|---|---|
