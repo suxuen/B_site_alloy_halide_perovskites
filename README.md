@@ -29,13 +29,13 @@ Inorganic halide perovskites (IHPs) are promising optoelectronic materials, but 
 ├── 2_electronic.ipynb         # Electronic structure analysis (band gap bowing, pDOS)
 ├── data/
 │   ├── DFT results/           # DFT-at-MLIP results and derived alloy/pure-phase dataframes
-│   ├── DFT dos/                # Density-of-states data for electronic structure analysis (WIP)
-│   ├── extraction scripts/     # Scripts used to extract/process raw DFT output (WIP)
+│   ├── DFT dos/                # Density-of-states data for electronic structure analysis
+│   ├── extraction scripts/     # Scripts used to extract/process raw DFT output (**to be added**)
 │   └── oqmd data/              # OQMD elemental reference energies used for formation enthalpy calcs
 └── manuscript_figures/         # Output figures matching manuscript figure numbers
 ```
 
-**Note on `dos_helper.py`:** the DOS/PDOS plotting utilities in this file were originally written by Nicholas Singstock, Ph.D., and are used here (with thanks) to generate the density-of-states figures in `2_electronic.ipynb`.
+**Note on `dos_helper.py`:** the DOS/PDOS plotting utilities in this file were originally written by Nicholas Singstock, Ph.D., and are used here (with thanks) to help generate the density-of-states figures in `2_electronic.ipynb`.
 
 ## Reproducing the Figures
 
@@ -47,7 +47,7 @@ Each notebook reads data from `data/` (relative paths) and writes figures to `ma
 - **Figure 4** — (a) discontinuous vs (b) continuous band gap change vs composition
 - **Figure 5 / 6** — Projected DOS of KRb(Mg_(1-x)Ni_(x))_2F_6 (discontinuous) and Cs_2(Sr_(1-x)Pb_(x))_2Br_6 (continuous)
 
-**Dependencies:** `pymatgen`, `ase`, `numpy`, `pandas`, `scipy`, `seaborn`, `matplotlib`. A pinned `environment.yml`/`requirements.txt` will be added once the environment is finalized.
+**Dependencies:** `pymatgen`, `ase`, `numpy`, `pandas`, `scipy`, `seaborn`, `matplotlib`, `palettable` (if not specifying dos plot colours). A pinned `environment.yml`/`requirements.txt` will be added once the environment is finalized.
 
 ## Citation
 
