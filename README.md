@@ -25,10 +25,10 @@ Inorganic halide perovskites (IHPs) are promising optoelectronic materials, but 
 
 ```
 .
-├── 1_thermodynamic.ipynb      # Reproduces stability figures (dHmix, dHd, entropy/free energy)
-├── 2_electronic.ipynb         # Electronic structure analysis (band gap bowing, pDOS)
+├── 1_thermodynamic.ipynb       # Reproduces stability figures (dHmix, dHd, entropy/free energy)
+├── 2_electronic.ipynb          # Electronic structure analysis (band gap bowing, pDOS)
 ├── data/
-│   ├── DFT results/           # DFT-at-MLIP results and derived alloy/pure-phase dataframes
+│   ├── DFT results/            # DFT-at-MLIP results and derived alloy/pure-phase dataframes
 │   ├── DFT dos/                # Density-of-states data for electronic structure analysis
 │   ├── extraction scripts/     # Scripts used to extract/process raw DFT output (**to be added**)
 │   └── oqmd data/              # OQMD elemental reference energies used for formation enthalpy calcs
